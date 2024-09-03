@@ -1,0 +1,198 @@
+body{
+    font-family: "Roboto", sans-serif;
+
+    background-color: rgb(244, 237, 237);
+}
+a{
+    text-decoration: none;
+}
+.main-title::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color:  rgb(100, 64, 64);
+    left: 50%;
+    bottom: -20%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+/* start navbar */
+.navbar-brand{
+    color: rgb(243, 185, 185);
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+.navbar-brand span{
+    color:slategrey;
+    font-size: 40px;
+}
+.navbar .navbar-nav .nav-link{
+    color:slategrey ;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-link :active,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus{
+    color: rgb(243, 185, 185);
+}
+.mona
+{
+    color: rgb(100, 64, 64);
+    font-weight: bolder;
+}
+.mona:hover{
+    background-color: darkgray;
+    color: rgb(243, 185, 185);
+
+}
+/* landing */
+.landing{
+    background-image:url("https://img.freepik.com/free-photo/young-people-weared-lgbt-flag-colors-isolated-white-wall-lgbt-pride-concept_155003-38038.jpg?t=st=1725238466~exp=1725242066~hmac=fcd8dc3d9e0f2d5cb70aef4fa6293ff3516e0f8c9070ba044e6576d73641b9a1&w=740") fixed no-repeat;
+    min-height: calc(100vh - 86px);
+}
+.landing h1{
+    color: rgb(93, 102, 111);
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.landing p{
+    color:rgb(138, 137, 137);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+/* about */
+.about{
+    background-color: white;
+    padding:100px ;
+    
+}
+.about h2{
+    color: rgb(100, 64, 64);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.about p{
+    color: rgb(105, 61, 61);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+h5{
+    font-size: 2rem;
+    color:rgb(148, 109, 109) ;
+    font-weight: bolder;
+}
+/* end about */
+/* sports */
+.sports h4{
+    font-weight: bolder;
+    font-size: 3rem;
+    color:slategrey ;
+    font-style:oblique;
+}
+/* Trainers*/
+ .trainer-section {
+	padding: 20px 15px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+ .trainer-section .trainer-col {
+	margin-bottom: 30px;
+}
+ .trainer-section .trainer-img {
+	width: 182px;
+    height: 182px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    overflow: hidden;
+    border: unset;
+} 
+ .trainer-section .trainer-img .trainer-in-img {
+	max-width: 182px;
+	border-radius: 50%;
+}
+
+ .trainer-section .trainer-col a:hover .trainer-title {
+	text-decoration: none;
+	color: #bc8686;
+}
+ .trainer-section .trainer-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: 0.8px;
+	font-weight: 600;
+	color: #444;
+}
+ .trainer-section .trainer-desc {
+	font-family: inherit;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.45px;
+	font-style: italic;
+	font-weight: 400;
+	color: #666;
+    padding-top: 0%;
+}
+.trainer-section p{
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: darkgray;
+}
+.trainer-section h2{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(100, 64, 64);
+}
+.Download{
+    background-color: #a08989;
+    padding: 100px;
+}
+
+.foot{
+    background-color: darkgrey;
+    padding: 140px;
+}
+.foot h2{
+    font-size: 4rem;
+    color: #e8d8d8;
+    font-weight: bolder;
+}
+.foot p{
+    color: rgb(96, 96, 96);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.form label{
+    color: #efd6d6;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.form-text{
+    color: red;
+    font-size: .9rem;
+}
+.form input{
+    background-color: #ede6e6;
+}
+
+/*  */
+.best-class-club{
+    padding: 100px;
+
+}
+.best-class-club img{
+    width: 400px;
+    padding-top: 50px;
+}
+.best-class-club h2{
+    color: #a08989;
+    font-size: 2.5rem;
+}
+.best-class-club p{
+    color: #666;
+    font-size: 1.2rem;
+}
